@@ -44,7 +44,9 @@ def main():
         get_sidebar(dataset_name)
     else:
         # Home
-        st.markdownst.markdown("""
+        st.markdown("""
+            <h1 style='text-align: center;'>Interact Learn</h1>
+            """
                     <h1 style='text-align: center;'>\
                         Interact Learn</h1>
                     """, 
@@ -57,22 +59,23 @@ def main():
             f'<div style="display: flex; justify-content: center; align-items: center; height: 60vh;">'
             f'<img src="{gif_url}" width="500" style="object-fit: contain;">'
             f'</div>',
+            
             unsafe_allow_html=True
 )
-        
-        st.markdown(
-    """
-    <div style="font-size: 24px; text-align: center;">
-        Project by: 
-        <img src="https://media.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif" alt="Project Gif" width="70" height="70">
-        <a href="https://www.linkedin.com/in/sujalsethi44/" target="_blank">Sujal Sethi</a>, 
-        <a href="https://www.linkedin.com/in/dawarmuskan4/" target="_blank">Muskan Dawar</a>, 
-        <a href="https://www.linkedin.com/in/nimish-batra/" target="_blank">Nimish Batra</a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
+            
+                <p>
+                    <strong>Project by:</strong><br>
+                    <img src="https://media.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif" width="50" height="50">
+                    
+                    <a href="https://www.linkedin.com/in/sujalsethi44/" target="_blank">Sujal Sethi</a>,
+                    
+                    <a href="https://www.linkedin.com/in/nimish-batra/" target="_blank">Nimish Batra</a>
+                </p>
+                <p>
+                    <strong>Join us</strong> in making machine learning accessible and engaging. Discover the potential within your data today with <strong>"Interact Learn"</strong>.
+                </p>
+            </div>
+        """, unsafe_allow_html=True)
 
 
 if __name__ == '__main__':
