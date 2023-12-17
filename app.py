@@ -61,16 +61,16 @@ def main():
 )
         
         st.markdown(
-    """
-    <div style="font-size: 24px; text-align: center;">
-        Project by: 
-        <img src="https://media.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif" alt="Project Gif" width="70" height="70">
-        <a href="https://www.linkedin.com/in/sujalsethi44/" target="_blank">Sujal Sethi</a>, 
-        <a href="https://www.linkedin.com/in/dawarmuskan4/" target="_blank">Muskan Dawar</a>, 
-        <a href="https://www.linkedin.com/in/nimish-batra/" target="_blank">Nimish Batra</a>
-    </div>
-    """,
-    unsafe_allow_html=True
+            """
+            <div style="font-size: 24px; text-align: center;">
+                Project by: 
+                <img src="https://media.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif" alt="Project Gif" width="70" height="70">
+                <a href="https://www.linkedin.com/in/sujalsethi44/" target="_blank">Sujal Sethi</a>, 
+                <a href="https://www.linkedin.com/in/dawarmuskan4/" target="_blank">Muskan Dawar</a>, 
+                <a href="https://www.linkedin.com/in/nimish-batra/" target="_blank">Nimish Batra</a>
+            </div>
+            """,
+            unsafe_allow_html=True
     )
 
 
