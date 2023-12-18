@@ -38,5 +38,5 @@ def get_sidebar(dataset_name):
 def get_sidebar_xy(dataset_name, x, y):
     st.sidebar.subheader('Classifier')
     classifier_name, best_button = handle_classifier_selection(dataset_name, x, y)
-    if classifier_name is not None:
+    if classifier_name is not None and not best_button:
         display_results(classifier_name, dataset_name, x, y)
